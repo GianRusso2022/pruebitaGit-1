@@ -1,0 +1,29 @@
+/* propiedades de la pagina principal*/
+.padre{
+    display: grid;
+    grid-template-areas: "img-uno img-dos"
+                         "img-tres img-cuatro";
+    justify-content: center;
+}
+
+.img-uno{
+    grid-area: img-uno;
+}
+
+.img-dos{
+    grid-area: img-dos;
+}
+
+.img-tres{
+    grid-area: img-tres;
+}
+
+.img-cuatro{
+    grid-area: img-cuatro;
+}
+
+
+
+
+
+
